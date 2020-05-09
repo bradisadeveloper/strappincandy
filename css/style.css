@@ -1,0 +1,133 @@
+/**Website transition**/
+* {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+
+/**Scroll effect to the main site**/
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+
+/**Social Media Icons**/
+.icon {
+  margin: 10px;
+}
+
+body .container .socialMedia a {
+  color: #fa00e5;
+}
+
+@media screen and (min-width: 1290px) {
+  .justify-content-center {
+    padding-left: 300px;
+  }
+  
+}
+
+/**Background Images**/
+
+.candyOne {
+    background-image: url(../images/candyIntro.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+#about {
+    background-image: url(../images/candy10.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact {
+    background-image: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px #000000aa;
+
+}
+
+/**Contact Us**/
+
+#contactUs {
+    text-align: right;
+    
+}
+
+a {
+  color: lightyellow;
+}
+
+/**Carousel**/
+.carousel .item {
+  height: 100px;
+}
+
+.item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+/**Buttons and their colors**/
+.btn-primary.strappin {
+  background-color: #fa00e5;
+  border-color: #fa00e5;
+}
+
+.btn-primary.subbing {
+  background-color: #fa00e5;
+  border-color: #fa00e5;
+  margin-left: 1rem;
+}
+
+
+/**Text**/
+.title {
+  text-shadow: 1px 1px #000000aa;
+  
+}
+
+.lead {
+  font-weight: 400;
+}
